@@ -52,6 +52,15 @@ button:focus{
     border: none;
 }
 
+.fas {
+    padding: 20px;
+	font-size: 50px;
+}
+
+h1{
+    color: white;
+}
+
 @media only screen and (min-width: 768px){
     iframe{
         width: 700px;
