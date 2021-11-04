@@ -1,4 +1,4 @@
-const lang = document.getElementById("lang"),
+const language = document.getElementById("lang"),
       bio = document.getElementById("bio"),
       englishBio = `My name is Florion Nako. 
       <br> I am a Computer and Mobile Repair Specialist with over five years of experience in the field.
@@ -15,12 +15,12 @@ var langState = "English";
 function myFunc(){
   if (langState==="English"){
     bio.innerHTML=spanishBio;
-    lang.innerHTML="English";
+    language.innerHTML="English";
     langState="Spanish";
   }
   else{
     bio.innerHTML=englishBio;
-    lang.innerHTML="Spanish";
+    language.innerHTML="Spanish";
     langState="English";
   }
 }
