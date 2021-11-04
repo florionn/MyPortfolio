@@ -17,6 +17,7 @@
         display: grid;
         margin-top: 10%;
         grid-column-gap: 16px;
+        grid-row-gap: 16px;
         background-color: beige;
         padding: 20px;
 
@@ -28,6 +29,12 @@
         color: white;
         border-radius: 5px;
         padding: 30px;
+      }
+
+      @media only screen and (max-width: 766px){
+        .grid-item{
+          grid-column: 1/4;
+        }
       }
     </style>
 </head>

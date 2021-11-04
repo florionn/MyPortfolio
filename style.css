@@ -61,6 +61,26 @@ h1{
     color: white;
 }
 
+#bio{
+    color: white;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+div h3, div a i{
+    color: white;
+}
+
+div a i{
+    margin-right: 20px;
+}
+
+#footer{
+    background-color: black;
+}
+
 @media only screen and (min-width: 768px){
     iframe{
         width: 700px;
@@ -69,5 +89,12 @@ h1{
 
     button{
         margin-top: 11%;
+    }
+
+    #bio{
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
