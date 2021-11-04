@@ -1,3 +1,7 @@
+body{
+    background-color: beige;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -37,9 +41,24 @@ iframe{
     height: auto;
 }
 
+button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
 @media only screen and (min-width: 768px){
     iframe{
         width: 700px;
         height: 400px;
+    }
+
+    button{
+        margin-top: 11%;
     }
 }
